@@ -32,18 +32,6 @@ export const Container = styled.div`
 export const ProductTable = styled.table`
   width: 100%;
 
-  strong {
-    color: #333;
-    display: block;
-  }
-
-  span {
-    display: block;
-    margin-top: 5px;
-    font-size: 18px;
-    font-weight: bold;
-  }
-
   thead th {
     color: #999;
     text-align: left;
@@ -57,6 +45,18 @@ export const ProductTable = styled.table`
 
   img {
     height: 100px;
+  }
+
+  strong {
+    color: #333;
+    display: block;
+  }
+
+  span {
+    display: block;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
   }
 
   div {
@@ -101,13 +101,13 @@ export const Total = styled.div`
   display: flex;
   align-items: baseline;
 
-  strong {
-    font-size: 28px;
-    margin-left: 5px;
-  }
-
   span {
     color: #999;
     font-weight: bold;
+  }
+
+  strong {
+    font-size: 28px;
+    margin-left: 5px;
   }
 `;
